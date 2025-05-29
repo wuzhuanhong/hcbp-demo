@@ -9,6 +9,7 @@
   * [基础配置最佳实践](as/basic_configuration.md)
 * [CCE](cce/)
   * [简介](cce/index.md)
+  * [部署CCE集群并配置NAT网关实现公网访问](cce/nat-writekubeconfig.md)
   * [使用Terraform部署按需计费CCE集群](cce/postpaid_cluster.md)
 * [FunctionGraph](fgs/)
   * [简介](fgs/index.md)

@@ -16,7 +16,13 @@
 
 ## 最佳实践目录
 
-1. [使用Terraform部署按需计费CCE集群](./postpaid_cluster.md)
+1. [部署CCE集群并配置NAT网关实现公网访问](./nat-writekubeconfig.md)
+   - 使用Terraform自动化部署CCE集群和NAT网关环境
+   - 通过NAT网关实现节点安全访问公网，无需暴露公网IP
+   - 自动生成并保存kubeconfig文件，支持集群访问凭证管理
+   - 提供可重复使用的Terraform配置，实现基础设施即代码
+
+2. [使用Terraform部署按需计费CCE集群](./postpaid_cluster.md)
    - 自动化部署集群和节点
    - 网络环境配置最佳实践
    - 提供可复用的Terraform配置脚本
